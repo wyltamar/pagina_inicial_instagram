@@ -75,3 +75,77 @@ body {
   align-items: center;
   overflow: hidden;
 }
+
+.instagram-login {
+  background-color: #0095f3;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.isntagram-logout {
+  color: #0095f3;
+  margin-top: 2rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+  padding-bottom: 1rem;
+}
+
+.link-blue {
+  color: #0095f3;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+  background-image: url('./img/googleplay-button.png');
+}
+
+@media (max-width: 650px) {
+  bady {
+    background-color: #ffffff;
+  }
+
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px transparent;
+  }
+}
